@@ -4,42 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="CSS/index_style.css">
+    <link rel="shortcut icon" href="IMG/spotify.png" type="image/x-icon">
+    <title>Iniciar sesion - Spotify</title>
 </head>
 <body>
+
     <header>
-        <img src="IMG/spotify.png" alt="NOT FOUND">
-        <h1>Spotify</h1>
+        <img src="IMG/spotify.png" alt="NOT FOUND" class="header__img">
+        <h1 class="header__text">Spotify</h1>
     </header>
 
     <main>
-        <h4>Para continuar, inicia sesion en Spotify</h4>
-        <div>
-            <img src="IMG/facebook.png" alt="NOT FOUND">
-            <h3>CONTINUAR CON FACEBOOK</h3>
-        </div>
-        <div>
-            <img src="IMG/apple-logo.png" alt="NOT FOUND">
-            <h3>CONTINUAR CON APPLE</h3>
-        </div><div>
-            <img src="IMG/google.png" alt="NOT FOUND">
-            <h3>CONTINUAR CON GOOGLE</h3>
-        </div>
+        <div class="main-back">        
 
-        <form>
-            <span>Direccion de correo o nombre de usuario</span> <br>
-            <input type="text" name="" id="" placeholder="Direccion de correo o nombre de usuario"> <br>
-            <span>Contraseña</span> <br>
-            <input type="password" name="" id="" placeholder="Contraseña"><br>
-            <span>¿Se te ha olvidado la contraseña?</span> <br>
-            <input type="checkbox" name="" id="">
-            <span>Recuerdame</span>
-            <input type="submit" value="INICIAR SESION">
+            <h4 class="main-back__text">Para continuar, inicia sesion en Spotify</h4>
+            <div class="container container-facebook--color">
+                <img src="IMG/facebook.png" alt="NOT FOUND" class="container-facebook__img IMG--size">
+                <h3 class="facebook__text text--color">CONTINUAR CON FACEBOOK</h3>
+            </div>
+
+            <div class="container container-apple--color">
+                <img src="IMG/apple-logo.png" alt="NOT FOUND" class="container-apple__img IMG--size">
+                <h3 class="apple__text text--color">CONTINUAR CON APPLE</h3>
+            </div>
+
+            <div class="container container-google--color">
+                <img src="IMG/google.png" alt="NOT FOUND" class="container-google__img IMG--size">
+                <h3 class="google__text">CONTINUAR CON GOOGLE</h3>
+            </div>
+
+            <div class="disyuncion">
+                <hr style="float: left; width: 46%;"> <span style="margin: 10px; font-weight: bold;">o</span> <hr style="float: right; width: 46%;">
+            </div>
+
+            <form class="formulario">
+                <span class="formulario__text-email formulario-text--size"><strong>Direccion de correo o nombre de usuario</strong></span> <br>
+                <input type="text" class="formulario__input-correo formulario-input--size" placeholder="Direccion de correo o nombre de usuario"> <br> <br>
+                <span class="formulario__text-password"><strong>Contraseña</strong></span> <br>
+                <input type="password" class="formulario__input-password formulario-input--size" placeholder="Contraseña"><br><br>
+                <span class="formulario__text-recover">¿Se te ha olvidado la contraseña?</span> <br><br><br>
+                <input type="checkbox" class="fomrulario__checkbox">
+                <span class="formulario__text-rememberme">Recuerdame</span>
+                <input type="submit" value="INICIAR SESION" class="formulario__input-login"> 
+            </form>
+
             <hr>
-            <span>¿No tienes cuenta?</span>
-            <div><h4>SUSCRIBETE A SPOTIFY</h4></div>
-        </form>
-    
+            <h4 class="main-back__text-question"><strong>¿No tienes cuenta?</strong></h4>
+            <div class="container-subscribe"><h4 class="container-subscribe__text">SUSCRIBETE A SPOTIFY</h4></div>
+
+        </div>            
+
     </main>
 </body>
 </html>

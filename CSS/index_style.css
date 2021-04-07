@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    height: 8em;
+    margin-bottom: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(177, 175, 175);
+}
+
+.header__img{
+    height: 64px;
+    width: 64px;
+    margin-right: 1em;
+}
+
+.main-back{
+    height: 100vh;
+    width: 30%;
+    margin: auto;
+}
+
+.main-back__text{
+    text-align: center;
+}
+
+.container{
+    height: 2.5em;
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-facebook--color{
+    background-color: rgb(69, 69, 197);
+    margin-top: 0.5em;
+}
+
+.container-facebook--color:hover{
+    background-color: rgb(53, 53, 184);
+}
+
+.container-apple--color{
+    background-color: black;
+}
+
+.container-apple--color:hover{
+    background-color: rgba(0, 0, 0, 0.753);
+}
+
+.container-google--color{
+    border-style: solid;
+    border-color: rgb(105, 105, 105);
+    height: 2em;
+    margin-bottom: 1em;
+    width: 98%;
+}
+
+.container-google--color:hover{
+    background-color: rgb(105, 105, 105);
+    
+}
+
+.container-google--color:hover .google__text{
+    color: white;
+}
+
+.IMG--size{
+    height: 16px;
+    width: 16px;
+    margin-right: 0.5em;
+}
+
+.text--color{
+    font-size: small;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.google__text{
+    color:rgb(105, 105, 105);
+    font-size: small;
+    letter-spacing: 2px;
+}
+
+.disyuncion{
+    display: flex;
+    align-items: center;
+}
+
+.formulario{
+    margin-bottom: 1em;
+}
+
+.formulario__text-recover{
+    text-decoration: underline;
+}
+
+.formulario-input--size{
+    width: 95%;
+    font-size: 15px;
+    padding: 8px;
+    outline: none;
+}
+
+.fomrulario__checkbox{
+    background-color: green;
+    height: 16px;
+    width: 16px;
+}
+
+.formulario__text-rememberme{
+    font-size: 18px;
+}
+
+.formulario__input-login{
+    background-color: rgb(39, 129, 39);
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 1.5em;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    margin-left: 6em;
+}
+
+.main-back__text-question{
+    margin-top: 2em;
+    text-align: center;
+}
+
+.container-subscribe{
+    height: 2.5em;
+    width: 100%;
+    color:rgb(105, 105, 105);
+    font-size: small;
+    letter-spacing: 2px;    
+    border-color: rgb(105, 105, 105);
+    border-radius: 25px;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.container-subscribe:hover{
+    background-color: rgb(105, 105, 105);
+}
+
+.container-subscribe:hover .container-subscribe__text{
+    color: white;
+}
